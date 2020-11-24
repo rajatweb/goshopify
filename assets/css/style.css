@@ -1,0 +1,187 @@
+.masthead {
+    height: 40vh;
+    min-height: 480px;
+    background-image: url('../img/header-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead-2 {
+    height: 25vh;
+    min-height: 180px;
+    background-color: #5F4DD5;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+#header {
+    background-color: #5f4dd6;
+    border-bottom: 1px solid #7060DD;
+}
+
+.dropdown-toggle::after {
+    vertical-align: .155em;
+}
+
+.navbar .logo,
+.logo-dark {
+    font-size: 24px;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.logo-dark {
+    color: #5F4DD5;
+}
+.logo-dark>span{
+    color: #D25F2E;
+}
+.navbar .logo>span {
+    color: #D25F2E;
+}
+
+.navbar .main-nav {
+    padding: 0px;
+}
+
+.navbar-nav .nav-link {
+    padding: 0px !important;
+}
+
+.navbar .main-nav li>a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar .main-nav li {
+    padding: 0px 20px;
+}
+
+.navbar .main-nav li.active>a {
+    border-bottom: 2px solid #D25F2E;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 2em;
+    height: 1.6em;
+}
+
+.svg-icon path, .svg-icon polygon, .svg-icon rect {
+    fill: #ffffff;
+}
+
+.svg-icon circle {
+    stroke: #ffffff;
+    stroke-width: 1;
+}
+
+
+.svg-icon-2 {
+    width: 6em;
+    height: 6em;
+}
+
+.svg-icon-2 path, .svg-icon-2 polygon, .svg-icon-2 rect {
+    fill: #D25F2E;
+}
+
+.svg-icon-2 circle {
+    stroke: #D25F2E;
+    stroke-width: 1;
+}
+
+.svg-icon-3 {
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.svg-icon-3 path, .svg-icon-2 polygon, .svg-icon-2 rect {
+    fill: #5f4dd6;
+}
+
+.svg-icon-3 circle {
+    stroke: #5f4dd6;
+    stroke-width: 1;
+}
+
+/** 
+* Button Style
+**/
+
+.gs-btn {
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: 'Lato', sans-serif;
+}
+
+.gs-btn-primary {
+    color: #ffffff;
+    background-color: #D25F2E;
+    border: 0px;
+}
+
+.gs-btn-primary.gs-btn-bottom {
+    border-bottom: 2px solid #e8af96;
+}
+
+.gs-btn-dark {
+    color: #ffffff;
+    background-color: #333333;
+    border: 0px;
+}
+
+/** 
+* Section - Our Product
+**/
+
+.title>hr {
+    width: 14%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.card-product, .card-support {
+    border: 0px;
+    background: #FFF;
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.card-support {
+    border-radius: 12px;
+}
+
+.card-product img {
+    height: 240px;
+}
+
+.card-product h4.card-title>a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #5f4dd6;
+}
+
+.card-product .price {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-product .card-badge {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 5px 10px;
+    top: 10px;
+    left: 0px;
+    background: #5f4dd6;
+    color: white;
+}
